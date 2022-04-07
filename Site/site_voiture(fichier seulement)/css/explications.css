@@ -1,0 +1,31 @@
+* {
+    font-family : sans-serif;
+    
+}
+
+body{
+    color : white;
+    margin-right : 3%;
+}
+
+.title{
+    padding-top : 75px;
+}
+
+.text{
+    list-style-type : none;
+    padding-top : 50px;
+    font-size : 28px;
+    padding : 30px;
+}
+
+a{
+    display : flex;
+    text-decoration : none;
+    color : white;
+}
+
+h1 {
+    margin-right : 3%;
+    text-align : center;
+}

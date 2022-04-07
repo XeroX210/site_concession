@@ -1,0 +1,51 @@
+* {
+    font-family : sans-serif;
+}
+
+/*Boite englobant toutes les autres*/
+.box{
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    justify-content : center;
+    padding-top : 30px;
+}
+
+/*Boite pour 1 seule vidéo*/
+.video{
+    cursor : pointer;
+    background-color : white;
+    border : 5px solid;
+    margin : 10px;
+    margin-bottom : 3px;
+    margin-right : 10px;
+    margin-left : 10px;
+    border-radius : 20px;
+    color : black;
+    font-size : 15px;
+    text-align : center;
+    width : 320px;
+    padding : 30px;
+
+}
+
+h1{
+    color : white ;
+    text-align : center;
+    text-decoration : underline;
+    padding-top :90px;
+}
+
+h2{
+    color : black;
+    text-align : center;
+    margin-top : -30px;
+    text-decoration : underline;
+}
+
+h3{
+    color : black;
+    margin-top : -2px;
+    margin-bottom : 5px;
+    
+}

@@ -1,0 +1,37 @@
+* {
+    font-family : sans-serif;
+}
+
+/*Boite englobant toutes les autres*/
+.box{
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    justify-content : center;
+    margin-top : 30px;
+}
+
+/*Une boite correspondant à une marque*/
+.item{
+    cursor : pointer;
+    background-color : white;
+    border : 5px solid;
+    padding : 40px;
+    margin : 20px;
+    margin-bottom : 3px;
+    margin-right : 10px;
+    margin-left : 10px;
+    border-radius : 20px;
+    color : black;
+    font-size : 15px;
+    text-align : center;
+
+}
+
+
+/*Barre de recherche et bouton*/
+.recherche {
+    display : flex;
+    justify-content : center;
+    margin-top : 7%;
+}
